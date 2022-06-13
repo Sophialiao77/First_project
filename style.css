@@ -1,0 +1,99 @@
+*{
+  /*border:solid 2px black; /*solid 代表實線 2px表線條粗細 black 表線條顏色*/
+}
+html,body{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(#9cbfe5,#dbbae2);
+}
+h1{
+  font-size: 40px;
+  color: #8a75a3;
+  border-radius:10px;
+  text-align:right;
+  position:relative;
+  left:35%;
+  width:50%;
+}
+h2{
+  font-size:30px;
+  background-color: #80b4c9;
+  color:  #fff;
+  border-radius:15px;
+  text-align:center;
+  border: 2px solid #fff; 
+  position:relative;
+  left:20%;
+  width:50%;
+}
+h3{
+  font-size:25px;
+  background-color: #bcd8b8;
+  color:#fff;
+  border-radius:5px;
+  text-align:center;
+  border: 2px solid #fff; 
+  position:relative;
+  left:0%;
+  width:70%;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.card{
+  width:800px;
+  display:flex;
+  border:solid 1px white;
+  border-radius:20px;
+  overflow:hidden;
+  background:linear-gradient(#f9e0ff,#b2d7ff);
+}
+.left{
+  width:40%;
+  background-image:url("https://i.ibb.co/HGCTz1b/S-25198597.jpg");
+  background-size:cover;
+  border-right:4px groove #fff;
+}
+.right{
+  width:40%;
+  padding:5px;
+}
+ul li{
+  display:inline-flex; /*將版面分隔成橫向*/
+  width:90%; /*設定版面資料寬度*/
+  vertical-align:top; /*對齊*/
+  justify-content:center;
+}
+.s_text{
+  font-size:20px;
+  margin-left:5px;
+  vertical-align:baseline;
+}
+a{
+  color:white; /*初始設定*/
+  text-decoration:initial;
+}
+.card:hover{
+  box-shadow:5px 5px 60px rgba(0,0,0,0.4);
+  transform:translate(-5px,-5px);
+   transition:0.2s;
+}
+.tag{
+  width:80px;
+  height:80px;
+  background-color:#ffffff;
+  border-radius:50%;
+  position:relative;
+  left:200px;
+  top:30px;
+}
+.v-line{
+ border-left: solid #bca3ce;
+ height:100%;
+ position:relative;
+ left:40px;
+ top:5px;
+}
